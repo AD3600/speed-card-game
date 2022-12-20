@@ -1,0 +1,95 @@
+/* CSS styles for the game interface go here */
+body {
+  background-color: rgb(82, 45, 12);
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  position: relative;
+  top: -5px;
+}
+
+#game {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #0096c7;
+}
+
+#you,
+#opponent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  padding: 10px;
+}
+
+#you h2,
+#opponent h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  width: 50px;
+  height: 75px;
+  margin: 5px;
+  background-color: #99c2ff;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+#you .card:hover, #middle-piles .card:hover {
+  transform: scale(1.1);
+}
+
+#middle-piles .card:hover {
+  box-shadow: 0 0 31px 10px rgb(20, 101, 158)
+}
+
+#middle-piles {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#middle-piles .card {
+  width: 100px;
+  height: 150px;
+}
+
+/* body {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 2em;
+  }
+
+  h1 {
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+
+  p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+  }
+
+  a.button {
+    display: inline-block;
+    padding: 0.5em 1em;
+    color: white;
+    background-color: #666;
+    text-decoration: none;
+  }
+
+  a.button:hover {
+    background-color: #333;
+  } */
