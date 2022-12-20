@@ -31,3 +31,6 @@ Once you connect you will see empty cards until another user connects. From ther
 rules are like that of Speed (see [here](https://gathertogethergames.com/speed)) with the 5 cards on the left belonging to you.
 Click one of your cards (the most recently clicked card will be glowing red) and the corresponding middle card to play it. 
 The card will only be played if it is a valid move. The first player to get rid of all of their cards wins.
+
+# Demonstration Video
+<https://youtu.be/hYiX-eXp22c>
